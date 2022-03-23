@@ -1,0 +1,9 @@
+.myInput {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    padding: 15px 35px;
+    margin: 5px 0;
+    border: 1px solid teal;
+    text-align: center;
+    width: 100%
+}

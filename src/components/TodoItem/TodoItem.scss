@@ -1,0 +1,36 @@
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 12px;
+    border-bottom: 3px teal solid;
+    padding: 5px;
+    .content__btn {
+        display: inline-block;
+        background: brown;
+        border: none;
+        color: #fff;
+        padding: 7px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 30px;
+    }
+    .content {
+        margin-right: 80px;
+        span {
+            color: brown;
+            font-size: 20px;
+        }
+        &__name {
+            font-weight: 500;
+            font-size: 25px;
+        }
+
+        &__descr {
+            font-weight: 300;
+            font-size: 15px;
+        }
+    }
+}

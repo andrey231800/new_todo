@@ -1,0 +1,18 @@
+.tabContent {
+    display: flex;
+    margin: 2px;
+    background: rgb(216, 198, 134);
+    padding: 3px 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    &__name {
+        font-size: 12px;
+        
+    }
+    &__btn {
+        background: none;
+        border: none;
+        font-size: 12px;
+        cursor: pointer;
+    }
+}

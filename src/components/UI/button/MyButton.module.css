@@ -1,0 +1,9 @@
+.myBtn {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: aquamarine;
+    padding: 10px 30px;
+    border: 1px solid teal;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+}
